@@ -27,7 +27,7 @@
         </div>
         <div class="form-group">
           <label>Kategori</label>
-          <input name="kategori" required="" value="<?= $data['berita']['kategori_id'] ?>"
+          <input name="kategori" required="" value="<?= $data['berita']['nama_kategori'] ?>"
           class="form-control">
         </div>
         <div class="form-group">

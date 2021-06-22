@@ -31,7 +31,7 @@
 						<a href="#"><?php echo $data['author'] ?></a>
 						on <?= $data['tanggal']; ?>
 						<br>
-						<a href="#"><?php echo $data['kategori_id'] ?></a>
+						<a href="#"><?php echo $data['nama_kategori'] ?></a>
 					</p>
 				</div>
 				<hr>

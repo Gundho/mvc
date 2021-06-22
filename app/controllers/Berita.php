@@ -12,7 +12,7 @@ class Berita extends Controller
 		$beritaID = (int)$id;
 		// $data['berita'] = $this->model('Berita_model')->readBerita($beritaID);
 		$berita = new Berita_class();
-		$data['berita'] = $berita->readBerita($beritaID);
+		$data['berita'] = $berita->readBerita($beritaID);		
 		$this->view('templates/header');
 		$this->view('read/index',$data);
 		$this->view('templates/footer');
