@@ -25,7 +25,7 @@
           <a href="#"><?= $data['berita']['author'] ?></a>
           on <?= $data['berita']['tanggal'] ?>
           <br>
-          <a href="#"><?php echo $data['berita']['kategori_id'] ?></a>
+          <a href="#"><?php echo $data['berita']['nama_kategori'] ?></a>
         </p>
         <h2 class="section-heading"><?= $data['berita']['judul'] ?></h2>
         <p><?= nl2br($data['berita']['deskripsi']) ?></p>

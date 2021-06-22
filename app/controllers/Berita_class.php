@@ -72,7 +72,7 @@ class Berita_class
 
 	public function readBerita($id)
 	{	
-		$query = "SELECT * FROM " . $this->table . " ORDER BY tanggal DESC";
+		$query = "SELECT b.id, b.judul, b.author, b.deskripsi, b.tanggal, k.nama_kategori FROM `berita` AS b JOIN `kategori` AS k ON b.kategori_id = k.id";
 		$result = $this->mysqli->query($query);
 		$data = array();
 

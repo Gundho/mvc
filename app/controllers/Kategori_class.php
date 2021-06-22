@@ -37,7 +37,7 @@ class Kategori_class
 
 	public function readKategori($id)
 	{	
-		$query = "SELECT * FROM " . $this->table . " ORDER BY tanggal DESC";
+		$query = "SELECT * FROM " . $this->table;
 		$result = $this->mysqli->query($query);
 		$data = array();
 
