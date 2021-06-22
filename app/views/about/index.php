@@ -17,9 +17,10 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-md-10 mx-auto">
-			<p>Perkenalkan, Nama Saya Saifur Rifqi Ali, Hobi saya Menulis. Saat ini, saya sedang menjalankan Studi di Universitas Jember, Tepatnya di Program Studi Teknologi Informasi angkatan tahun 2018</p>
-			<p>Banyak pengalaman yang dapat saya ceritakan, baik dari pengalaman percintaan, persahabatan, perkuliahan dan lain sebagainya. akan tetapi banyak dari konten Blog yang saya punya memang sering membahas kisah percintaan, hehehe tidak masalah bukan.</p>
-			<p>Semoga Sehat selalu, salam baik dari Kami, Semoga Terhibur.</p>
+			<p>Perkenalkan, kami dari kelompok 2 Kelas Pola-Pola Perancangan izin Memperkenalkan diri, Saya Saifur Rifqi Ali NIM 182410102033 dan Teman saya Miantoko Gundho P.N NIM 182410102049</p>
+			<p>Pada kesempatan kali ini, kami menyusun sebuah blog yang ditujukan kepada seluruh pengguna Internet dalam menumbuhkan minat menulis. sebab pada realitanya minat kembang menulis di Indonesia sendiri masih terbilang sangat rendah</p>
+			<p>Di dalam blog yang kami buat ini, kami juga ingin dapat menerapkan ilmu yang kami peroleh dalam kelas, yaitu dengan merealisasikan metode pattern dalam blog yang kami susun ini, pada kesempatan ini kami menerapkan singleton pattern, facade pattern dan template pattern.</p>
+			<p>Pesan kami bagi seluruh penikmat Blog, Semoga Sehat selalu, salam baik dari Kami, Semoga Terhibur.</p>
 			<p>#STAYATHOME</p>
 		</div>
 	</div>
