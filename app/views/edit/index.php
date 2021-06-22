@@ -26,6 +26,11 @@
           class="form-control">
         </div>
         <div class="form-group">
+          <label>Kategori</label>
+          <input name="kategori" required="" value="<?= $data['berita']['kategori_id'] ?>"
+          class="form-control">
+        </div>
+        <div class="form-group">
           <label>Penulis</label>
           <input name="author" required="" value="<?= $data['berita']['author'] ?>"
           class="form-control">

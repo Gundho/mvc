@@ -30,6 +30,8 @@
 					<p class="post-meta">Posted by
 						<a href="#"><?php echo $data['author'] ?></a>
 						on <?= $data['tanggal']; ?>
+						<br>
+						<a href="#"><?php echo $data['kategori_id'] ?></a>
 					</p>
 				</div>
 				<hr>

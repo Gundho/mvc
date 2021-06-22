@@ -25,6 +25,10 @@
           <input name="judul" required="" value="" class="form-control">
         </div>
         <div class="form-group">
+          <label>Kategori</label>
+          <input name="kategori" required="" value="" class="form-control">
+        </div>
+        <div class="form-group">
           <label>Penulis</label>
           <input name="author" required="" value="" class="form-control">
         </div>

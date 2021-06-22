@@ -33,8 +33,9 @@ class Berita_model
 		$author = $data['author'];
 		$deskripsi = $data['deskripsi'];
 		$tgl = date('Y-m-d');
+		$kategori = $date['kategori'];
 
-		$query = "insert into berita values(DEFAULT,'$judul','$deskripsi','$author','$tgl')";
+		$query = "insert into berita values(DEFAULT,'$judul','$deskripsi','$author','$tgl','$kategori')";
 		mysqli_query($this->mysqli, $query);
 	}
 
@@ -64,8 +65,9 @@ class Berita_model
 		$author = $data['author'];
 		$deskripsi = $data['deskripsi'];
 		$tgl = date('Y-m-d');
+		$kategori = $date['kategori'];
 
-		$query = "update berita set judul='$judul', deskripsi='$deskripsi', author='$author', tanggal='$tgl' where id='$id'";
+		$query = "update berita set judul='$judul', deskripsi='$deskripsi', author='$author', tanggal='$tgl',kategori_id='$kategori' where id='$id'";
   			
 		$this->mysqli->query($query);
 	}
